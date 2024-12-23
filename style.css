@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* font header */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* font body */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    font-optical-sizing: larger;
+    font-style: normal;
+    margin: 0;
+    height: 100vh;
+    background-image: url(_\ \(3\).jpeg);
+    background-size: cover;
+}
+
+
+
+/* Header */
+header {
+
+    color: #ea0061;
+    padding: 20px;
+    text-align: center;
+  
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 16px;
+}
+
+
+/* Main content */
+main {
+    padding: 40px;
+    margin-right: 10%;
+}
+
+.pertama {
+    background-color: rgb(255, 230, 103);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 880px;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Profil */
+#profile img {
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#profile {
+    display: flex;
+    gap: 70px;
+    font-size: 140%;
+    align-items: center;
+}
+
+#keahlian {
+    font-size: 120%;
+    margin-top: 25px;
+}
+
+/* Footer */
+footer {
+    background-color:#fe7496;
+    color: #f9e4f3;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links */
+a {
+    color: #ea0061;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List style untuk portofolio dan sumber belajar */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    text-align: center; /* memusatkan gambar secara horizontal  */
+    padding: 20px; /* space around di antara gambar */
+}
+
+.styled-image {
+    width: 40%;
+    height: 40%; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; 
+    margin-top: 4rem;
+}
+
+.styled-image:hover {
+    transform: scale(1.05); /* zoom effect */
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFE8;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fe7496;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #fe7496;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transform: translateY(-5px);
+}
+
+.ho {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    position: sticky;
+    top: 0px;
+    left: 30px;
+    opacity: 0.9;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    position:-webkit-sticky;
+    opacity: 0.9;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding-inline: 4rem;
+    gap: 1rem;
+}
+
+nav li {
+    padding: 8px;
+    list-style-type: none;
+
+    margin-bottom: 0%;
+}
+
+nav ul li {
+    display: flex;
+}
+
+.logo-hub i{
+    font-size: 100px;
+    margin-top: 10px;
+
+}
