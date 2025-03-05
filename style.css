@@ -67,6 +67,7 @@ h2 {
 #profile img {
     width: 250px;
     border-radius: 50%;
+    height: 350px;
     margin-bottom: 20px;
     justify-content: center;
 }
